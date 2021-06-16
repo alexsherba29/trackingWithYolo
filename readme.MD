@@ -1,4 +1,4 @@
-# Wiliot project
+# Tracking project
 
 original model located in [here](https://drive.google.com/file/d/1HGbaF61x4N9mLbjWYYPNrnIyQG1WoLUb/view?usp=sharing)
 tiny model located in [here](https://drive.google.com/file/d/1luUMPAj-MvTD-xRoZ3tunt9P8k-j2Jfy/view?usp=sharing)
