@@ -1,0 +1,41 @@
+# config file for 2 cam 
+camera_source: {
+  enable: true,
+  device: "0",
+
+  caps: "image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)15/1"
+}
+camera_source1: {
+  enable: true,
+  device: "2",
+  caps: "image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)15/1"
+}
+camera_source2: {
+  enable: true,
+  device: "4",
+  caps: "image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)15/1"
+}
+camera_source3: {
+  enable: true,
+  device: "6",
+  caps: "image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)15/1"
+}
+
+config_file_path: "config_infer_primary.txt"
+image_dir_path: "/home/alex/Desktop/pic_Dir/" # need to change for real path
+width: 640
+height: 480
+target_fps: "1/2" 
+
+### http
+conn_http: "http://192.168.2.4:4321"
+dataSend: 5 # in frame
+picSend: 5 # in frame 
+###
+
+picDeleteDays: 0
+picDeleteSec: 60   # 0 - 86400 
+
+# total pic = picDeleteSec / dataSend
+
+
