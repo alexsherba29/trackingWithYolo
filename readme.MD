@@ -26,7 +26,7 @@ now you can move the alexProject dir where ever you want
 
 ```python
 
-$ python3 wiliotTagTracker.py -c tag_tracker_configure_file.yaml
+$ python3 TagTracker.py -c tag_tracker_configure_file.yaml
 
 ```
 
